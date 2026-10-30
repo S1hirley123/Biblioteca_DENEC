@@ -1,0 +1,39 @@
+{
+  "name": "resguardo-denec",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Resguardo DENEC · Archivo vivo — sistema de gestión documental de la iglesia (Vue 3 + Quasar + AWS Amplify Gen 2)",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sandbox": "ampx sandbox",
+    "sandbox:delete": "ampx sandbox delete"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.17",
+    "aws-amplify": "^6.13.0",
+    "pinia": "^3.0.1",
+    "quasar": "^2.18.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.14.0",
+    "@aws-amplify/backend-cli": "^1.5.0",
+    "@quasar/vite-plugin": "^1.9.0",
+    "@types/aws-lambda": "^8.10.147",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "aws-cdk-lib": "^2.180.0",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.25.0",
+    "sass-embedded": "^1.85.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "vite": "^6.2.0"
+  }
+}

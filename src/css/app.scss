@@ -1,0 +1,57 @@
+// Tokens de diseño "Archivo vivo"
+:root {
+  --verde-bosque: #183f2e;
+  --verde-boton: #1e5a3f;
+  --verde-claro: #dcebe0;
+  --marfil: #f4ece0;
+  --papel: #fffcf5;
+  --laton: #b08d57;
+  --laton-claro: #f3e6cc;
+  --tinta: #1e2a22;
+  --texto-suave: #6b6b5e;
+  --borde: #e6dccb;
+  --error-fondo: #f6dcd8;
+  --error-texto: #a33a2e;
+}
+
+body {
+  background: var(--marfil);
+  color: var(--tinta);
+  font-family: 'DM Sans', sans-serif;
+}
+
+.titulo-serif {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.etiqueta-seccion {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--laton);
+}
+
+.tarjeta-papel {
+  background: var(--papel);
+  border: 1px solid var(--borde);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(30, 42, 34, 0.06);
+}
+
+.sello {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--laton);
+  background: var(--laton-claro);
+  color: #8a6a35;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
