@@ -20,6 +20,8 @@ Sistema web para resguardar la documentación de la iglesia DENEC: actas, fotos,
 | Lambda: Permisos y auditoría | `amplify/functions/permisos-auditoria/` |
 | Amazon S3 (PDF, Word, imágenes) | `amplify/storage/resource.ts` |
 
+**Base de datos:** el diagrama entidad-relación de las tablas DynamoDB está en [`docs/base-de-datos.md`](docs/base-de-datos.md).
+
 **Regla principal:** la autorización por rol y por recurso **siempre se valida en el backend**. Que un botón no aparezca en el frontend no basta como seguridad.
 
 ## Estructura
